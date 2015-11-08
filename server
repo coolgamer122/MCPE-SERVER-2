@@ -1,0 +1,25 @@
+//server-ip//
+ip:play.coolgamer.net
+port:11111
+massage:testing server beta
+
+//lobby//
+size:100x100
+make:circle,line
+
+//teleport//
+sign:tap here if you went to go to HG1
+gotoserver:HG1 by:edisongamerhd1
+sign:tap here if you went to go bb1
+gotoserver:bb1 by:awesomegamer1
+
+//timer//
+HG1 has:10sec
+bb1 has:10sec
+
+if hobby
+ goto the right server
+  if hg1 or bb1
+   goto hg1
+   goto bb1
+   end 
